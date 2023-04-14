@@ -14,8 +14,10 @@ shapes.push(myShape);
 shapes.push(myCircle);
 shapes.push(myRectangle);
 
+// add an anonymous object to the array
 shapes.push(new Rectangle(1,2,3,4));
 
+// Simplified for-loop (foreach-loop)
 for (let tmpShape of shapes) {
     console.log(tmpShape.getInfo());
 }
